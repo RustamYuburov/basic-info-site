@@ -32,8 +32,5 @@ http
         return res.end();
       });
     }
-
-    // res.writeHead(200, { 'Content-Type': 'text/html' });
-    // res.end('Hello');
   })
   .listen(8080);
